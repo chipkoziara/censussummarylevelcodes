@@ -5,5 +5,5 @@ This CSV makes it easy to join Summary Level codes with their respective Summary
 
 If you're using R, you can do this easily with [dplyr's](https://github.com/hadley/dplyr) left_join function:
 ```
-left_join(census.data.frame, summary.codes, by = "SUMLEV")
+left_join(census.data.frame, summary.level.codes, by = "SUMLEV")
 ```
